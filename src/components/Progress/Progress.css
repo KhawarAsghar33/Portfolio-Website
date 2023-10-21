@@ -1,0 +1,27 @@
+
+.progressBar{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    height: 100%;
+    margin: 15px;
+    margin-top: 5rem;
+}
+.p10{
+    margin: 10px;
+    padding: 10px 0;
+ }
+
+ .bar10{
+    height: 30%;
+ }
+
+ @media (max-width:634px) {
+    .progressBar{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+ }

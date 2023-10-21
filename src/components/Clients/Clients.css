@@ -1,0 +1,40 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title>p {
+    font-weight: 500;
+}
+
+.companiesImg {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    row-gap: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.companyImg {
+    height: 150px;
+    width: 150px;
+}
+
+@media (max-width:870px) {
+
+    .companiesImg {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media (max-width:570px) {
+
+    .companiesImg {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+}

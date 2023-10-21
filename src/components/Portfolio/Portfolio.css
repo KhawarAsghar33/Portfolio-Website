@@ -1,0 +1,50 @@
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 1.5rem;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+.project{
+    background-color: #2c2c6c;
+    padding: 2rem 0;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    transition: all 400ms ease;
+}
+
+.project:hover{
+    border-color: rgba(77, 181, 255, 0.4);
+    background: transparent;
+}
+
+.project h5{
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.img3{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+} 
+
+.liveBtn{
+    margin-left: 1rem;
+}
+
+@media (max-width:1150px) {
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media (max-width:812px) {
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+}

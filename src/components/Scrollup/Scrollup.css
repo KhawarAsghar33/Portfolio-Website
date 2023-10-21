@@ -1,0 +1,57 @@
+.scrollup{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    width: 5%;
+    border-radius: 50%;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 1;
+}
+
+.scrollup:hover{
+    cursor: pointer;
+}
+
+.icon{
+    font-size: 25px;
+    color: black !important;
+}
+
+@media (max-width:1700px) {
+    .icon{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:376px) {
+    .icon{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:934px) {
+    .scrollup{
+        height: 9vh;
+        width: 10%;
+    }
+    .icon{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:670px) {
+    .scrollup{
+        width: 15%;
+    }
+}
+
+@media (max-width:415px) {
+    .scrollup{
+
+        width: 20%;
+    }
+}

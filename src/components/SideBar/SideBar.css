@@ -1,0 +1,28 @@
+.rightbarListItem{
+    margin-bottom: 1.5rem;
+    list-style: none;
+    font-weight: 500;
+}
+
+.rightbarButton{
+    padding: 10px;
+    width: 100%;
+    font-weight: 500;
+}
+
+.side1{
+    margin: 1rem;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.side2{
+    color: white;
+    cursor: pointer;
+    margin-top: 1.5rem;
+}

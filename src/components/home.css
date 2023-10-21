@@ -1,0 +1,131 @@
+.intro {
+    height: calc(100vh - 4rem);
+    margin: 0 auto;
+    position: relative;
+}
+
+.profilePic {
+    height: 90vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.contentIntro {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-weight: 700;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.hello {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.introName {
+    color: yellow;
+}
+
+.introPara {
+    font-size: medium;
+    font-weight: 500;
+}
+
+.introBtn {
+    width: 30%;
+    border-radius: 15px;
+}
+
+.introBtn:hover {
+    color: black;
+    background-color: yellow;
+}
+
+.hire {
+    font-weight: 700;
+}
+
+.hireIcon {
+    margin-right: 0.5rem;
+}
+
+@media (max-width: 618px) {
+    .contentIntro {
+        color: chartreuse;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .introBtn {
+        width: 60%;
+    }
+
+    .introName {
+        color: chartreuse;
+    }
+     .profilePic {
+        opacity: 0.5;
+    }
+}
+
+@media (max-width:412px) {
+    .introBtn {
+        width: 80%;
+    }
+
+    .profilePic {
+        opacity: 0.5;
+    }
+
+    .contentIntro {
+        font-size: 3rem;
+        color: chartreuse;
+    }
+
+    .introPara {
+        font-weight: 700;
+    }
+
+    .introBtn{
+        font-size: 20px;
+    }
+
+    .hello {
+        font-size: 2.0rem;
+    }
+}
+
+@media (max-width:360px) {
+    .introBtn {
+        width: 55%;
+    }
+
+    .profilePic {
+        opacity: 0.5;
+    }
+
+    .contentIntro {
+        font-size: 1.5rem;
+        color: chartreuse;
+    }
+
+    .introPara {
+        font-weight: 700;
+    }
+
+    .hello {
+        font-size: 1rem;
+    }
+}
